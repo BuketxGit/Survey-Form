@@ -1,0 +1,63 @@
+
+body{
+  background-color: rgba(220,200,0, 0.5);
+  text-align: center;
+  color: rgb(50,10,180);
+  font-family: Arial;
+  margin-top: 95px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Crunchyroll_Logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+form{
+  background-color: rgba(230,210,120, 0.75);
+  border-radius: 10px;
+  margin: 25vw;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: left;
+}
+
+input[id="name"], input[id="email"], input[id="number"], #dropdown, #feature, #featuresel, #comment, button {
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+input[id="name"], input[id="email"], input[id="number"], #dropdown, #featuresel, #comment {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+  display: flex;
+}
+
+
+#rec, #section{
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+button{
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
+  color: rgb(50,10,180);
+  font-size: 15px;
+}
+
+button:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+textarea{
+  height: 150px;
+}
